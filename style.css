@@ -1,0 +1,18 @@
+body{
+    background-color: #63eded;
+    color: #5f1169;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+#menu-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+#menu-container img{
+width: 300px;
+}

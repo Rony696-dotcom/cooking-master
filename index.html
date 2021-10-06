@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooking-master</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="main-menu" class="container">
+    <div class="input-text mt-5" id="alMeal">
+      <div class="d-flex justify-content-center">
+        <input
+          class="form-control w-50"
+          id="search-Input"
+          type="text"
+          placeholder="Enter The Food Name"
+        />
+        <button id="searchBtn" type="button" class="btn btn-warning">
+            Search
+          </button>
+      </div>
+
+
+    </div>
+
+    <div class="mt-5 text-center" id="details-ingredient"></div>
+
+    <div class="mt-5" id="menu-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
